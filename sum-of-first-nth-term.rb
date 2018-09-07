@@ -26,5 +26,5 @@ def series_sum(n)
     total += (1 / denominator)
     denominator += 3.0
   end
-  puts format("%.2f",total)
+  "#{format("%.2f",total)}"
 end

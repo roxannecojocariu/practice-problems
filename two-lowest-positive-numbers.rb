@@ -19,5 +19,7 @@ def sum_two_smallest_numbers(numbers)
   numbers.delete_if {|number| number < 0 || !number.integer?}
   sorted_numbers = numbers.sort
   sum = sorted_numbers[0] + sorted_numbers[1]
-  puts sum
+  sum
 end
+
+sum_two_smallest_numbers([1,3,5])

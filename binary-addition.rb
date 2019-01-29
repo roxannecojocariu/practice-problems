@@ -22,5 +22,3 @@ def add_binary(a,b)
   end
   return binary.reverse.join('')
 end
-
-add_binary(1,1)

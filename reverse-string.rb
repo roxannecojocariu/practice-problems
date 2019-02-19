@@ -1,4 +1,3 @@
-require 'pry'
 def reverse_string(str)
   split_string = str.split('')
   reversed_string = []

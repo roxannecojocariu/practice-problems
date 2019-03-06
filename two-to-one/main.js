@@ -22,5 +22,3 @@ function longest(s1, s2) {
   });
   return newString.join('');
 }
-
-longest("aretheyhere", "yestheyarehere");

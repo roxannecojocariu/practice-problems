@@ -4,6 +4,5 @@ function descendingOrder(n){
   string = n.toString()
   string = string.split('')
   string = string.sort(function(a, b){return b-a})
-  debugger
   return Number(string.join(''))
 }
